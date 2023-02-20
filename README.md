@@ -1,6 +1,6 @@
 # RBSL PORTFOLIO SITE
 
-# TEAM NAME : WD47
+# COMPANY NAME : WD47
 
 ## Project Goals / Services provided by the application
 
