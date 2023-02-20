@@ -1,4 +1,5 @@
 # RBSL PORTFOLIO SITE
+[![RBSL GitHub stats](https://github-readme-stats.vercel.app/api?username=scdtp)](https://github.com/Scdtp/github-readme-stats)
 
 # COMPANY NAME : WD47
 
