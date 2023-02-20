@@ -12,6 +12,8 @@
 
 ## TECHNOLOGIES
 
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 1. HTML , CSS, and Javascript
 2. PHP
 3. Laravel
