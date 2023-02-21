@@ -4,6 +4,10 @@
     box-sizing: border-box;
 } 
 
+/* html{
+    font-size: 62.5%; /*10px for converting rem
+} */
+
 body{
     font-family:'Poppins', sans-serif;
 
@@ -60,3 +64,64 @@ nav ul li a{
     font-size: 70px;
     margin-top: 10px;
 }
+
+
+/********************************ABOUT ME SECTION ********************************/
+
+.about{
+    background-color: #242323;
+    height: 80vh;
+}
+
+.about-text{
+    /* background-color: orangered; */
+    color:white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.about-text h2{
+    font-size: 60px;
+    /* background-color:green; */
+    padding-top: 6rem;
+}
+
+.about-text p{
+    /* background-color: blue; */
+    padding-top: 2rem;
+    line-height: 1.8rem;
+   text-align: center;
+}
+
+.about-skills{
+    /* background-color: orangered; */
+    width: 50%;
+    color: white;
+    margin: auto;
+    padding-top:3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-skills h3{
+    padding-right: 5%;
+}
+
+.about-skills__h3--1{
+    border-bottom: 3px solid #20E700;
+    width: 5%;
+    margin-right: 50px;
+}
+    
+
+
+
+
+/*******************************MY PORTFOLIO SECTION *******************************/
+
+/*******************************CONTACT SECTION *******************************/
+
+/*******************************FOOTER SECTION *******************************/
