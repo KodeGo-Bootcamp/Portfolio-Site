@@ -25,7 +25,7 @@ body {
     background-position: center;
 }
 
-.header__image{
+.header__image {
     display: none;
 }
 
@@ -75,7 +75,7 @@ nav ul li a {
     margin-top: 10px;
 }
 
-.header-text--2{
+.header-text--2 {
     display: none;
 }
 
@@ -301,18 +301,18 @@ footer {
 @media only screen and (max-width: 600px) {
 
     .header {
-       background-image:none;
-       background-color: #242323;
+        background-image: none;
+        background-color: #242323;
     }
 
-    .header__image{
+    .header__image {
         display: block;
     }
 
-    .header__image img{
+    .header__image img {
         object-fit: cover;
         position: absolute;
-        top:50%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 200px;
@@ -324,7 +324,7 @@ footer {
         display: none;
     }
 
-    .header-text--2{
+    .header-text--2 {
         display: block;
         position: absolute;
         top: 80%;
@@ -333,48 +333,81 @@ footer {
         color: #fff;
     }
 
-    .header-text--2 h2{
+    .header-text--2 h2 {
         font-size: 20px;
         font-weight: 200;
         line-height: 1.8;
     }
 
-    .header-text--2 span{
+    .header-text--2 span {
         color: #20e700;
     }
-
-/* 
-    .header-brand {
-       
-    }
-
-    .header-brand__span {
-      
-    }
-
-    nav {
-      
-    }
-
-    nav ul li {
-       
-    }
-
-    nav ul li a {
-       
-    }
-
-   
-
-    .header-text h1 {
-       
-    } */
 }
 
 /*-------------------------ABOUT SECTION -------------------------*/
-/* @media only screen and (max-width: 600px){
-    
-} */
+
+/*****BREAKPOINT MOBILE 600px**************/
+@media only screen and (max-width: 600px) {
+    .about {
+        padding-top: 10%;
+        height: 150vh;
+    }
+
+    .about-img{
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+    }
+
+    /* 
+.about-text {
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 60px;
+   
+    padding-top: 6rem;
+}
+
+.about-text p {
+   
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.about-skills {
+  
+    width: 50%;
+    color: white;
+    margin: auto;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-skills h3 {
+    padding-right: 5%;
+}
+
+.about-skills__h3--1 {
+    border-bottom: 3px solid #20E700;
+    width: 5%;
+    margin-right: 50px;
+}
+
+*/
+}
+
+
+
+
 
 /*-------------------------PORTFOLIO SECTION -------------------------*/
 /* @media only screen and (max-width: 600px){
