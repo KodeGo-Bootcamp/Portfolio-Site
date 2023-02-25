@@ -378,13 +378,13 @@ footer {
         -moz-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
     }
 
+    .about-text{
+        width: 80%;
+    }
+
+   
+
     /* 
-.about-text {
-    color: white;
-    margin: auto;
-    text-align: center;
-    width: 50%;
-}
 
 .about-text h2 {
     font-size: 60px;
