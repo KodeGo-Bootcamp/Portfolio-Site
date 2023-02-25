@@ -8,6 +8,10 @@
     font-size: 62.5%; /*10px for converting rem
 } */
 
+html{
+    scroll-behavior: smooth;
+}
+
 /********************************ELEMENT SELECTORS OR GLOBAL STYLES ********************************/
 
 body {
@@ -79,6 +83,10 @@ nav ul li a {
     display: none;
 }
 
+
+#about{
+    scroll-behavior: smooth;
+}
 
 
 /********************************ABOUT ME SECTION ********************************/
