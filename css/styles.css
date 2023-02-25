@@ -88,8 +88,8 @@ nav ul li a {
     height: 80vh;
 }
 
-.about-img{
-    display:none;
+.about-img {
+    display: none;
 }
 
 .about-text {
@@ -357,10 +357,25 @@ footer {
         height: 150vh;
     }
 
-    .about-img{
+    .about-img {
         display: block;
         text-align: center;
         padding: 0 3% 5% 0;
+    }
+
+    .about-img img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        transition-delay: 0.01s;
+    }
+
+    .about-img img:hover {
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);;
+        -moz-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
     }
 
     /* 
